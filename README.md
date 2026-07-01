@@ -5,7 +5,7 @@ A simple and responsive **Student ERP Sign Up Form** built using **HTML5** and *
 This project was created to practice front-end web development concepts such as HTML forms, responsive layouts, modern UI design, and CSS styling.
 
 ---
-<img width="1315" height="741" alt="image" src="https://github.com/user-attachments/assets/eacacc4c-f5c7-4afd-9aba-db31a473ac35" />
+<img width="954" height="740" alt="image" src="https://github.com/user-attachments/assets/a240c722-0e03-44b2-aceb-75347b53c22c" />
 
 
 ## 🚀 Features
