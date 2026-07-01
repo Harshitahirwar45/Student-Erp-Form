@@ -1,59 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student ERP Sign Up</title>
-</head> 
+    <link rel="stylesheet" href="style.css">
+</head>
 
 <body>
- <H1 style="text-align:center;">STUDENT ERP SIGN UP</H1>   
 
-<h2 style = "text-align:center;">FILL THE DETAILS CAREFULLY</h2>
-<BR>
-<form action="submitpage.html">
-<H3>ENTER YOUR FULL NAME</H3>
-<input type = "text" name = "full_name" placeholder = "student full name" required>
-<br>
-<br>
-<h3>ENTER YOUR FATHER'S NAME</h3>
-<input type = "text" placeholder = "FATHER'S NAME" required>
-<br>
-<br>
-<h3>ENTER YOUR MOTHER'S NAME</h3>
-<input type = "text" placeholder = "MOTHER'S NAME" required>
-<br>
-<br>
-<h3>ENTER YOUR ADDRESS</h3>
-<input type = "text" placeholder="ADDRESS" required>
-<br>
-<br>
-<H3>ENTER YOUR ROLL NUMBER</H3>
-<input type="text" placeholder="Student Roll Number" required>
-<br>
-<br>
-<H3>ENTER PASSWORD</H3>
-<input type = "password" placeholder = "Enter password" required>
-<br>
-<br>
-<H3>CONFIRM PASSWORD</H3>
-<input type = "password" placeholder = "confirm password" required>
-<br>
+    <h1>STUDENT ERP SIGN UP</h1>
 
-<br>
-<H3>SELECT YOUR CITY</H3>
-<BR>
-<select name = "CITY" required>
-<option value ="">--select city--</option>
-<option value = "BHOPAL">BHOPAL</option>
-<option value = "INDORE">INDORE</option>
-<option value = "MUMBAI">MUMBAI</option>
-<option value = "SAGAR">SAGAR</option>
-<option value = "PANJI">PANJI</option>
-</select>
-<BR>
-<BR>
-<input type="submit" value="Sign Up">
-</form>
+    <h2>FILL THE DETAILS CAREFULLY</h2>
+    <br>
+    <div class="container">
+        <form action="submitpage.html">
+            <h3>ENTER YOUR FULL NAME</h3>
+            <input type="text" name="full_name" placeholder="student full name" required>
+            <br>
+            <h3>ENTER YOUR FATHER'S NAME</h3>
+            <input type="text" placeholder="FATHER'S NAME" required>
+            <br>
+            <h3>ENTER YOUR MOTHER'S NAME</h3>
+            <input type="text" placeholder="MOTHER'S NAME" required>
+            <br>
+            <h3>ENTER YOUR ADDRESS</h3>
+            <input type="text" placeholder="ADDRESS" required>
+            <br>
+            <h3>ENTER YOUR ROLL NUMBER</h3>
+            <input type="text" placeholder="Student Roll Number" required>
+            <br>
+            <h3>ENTER PASSWORD</h3>
+            <input type="password" placeholder="Enter password" required>
+            <br>
+            <h3>CONFIRM PASSWORD</h3>
+            <input type="password" placeholder="confirm password" required>
+            <br>
+            <h3>SELECT YOUR CITY</h3>
+
+            <select name="CITY" required>
+                <option value="">--select city--</option>
+                <option value="AGRA">Agra (UP)</option>
+                <option value="AHMEDABAD">Ahmedabad (GJ)</option>
+                <option value="AHMEDNAGAR">Ahmednagar (MH)</option>
+                <option value="AJMER">Ajmer (RJ)</option>
+                <option value="AKOLA">Akola (MH)</option>
+                <option value="ALIGARH">Aligarh (UP)</option>
+                <option value="ALLAHABAD_PRAYAGRAJ">Allahabad / Prayagraj (UP)</option>
+                <option value="ALWAR">Alwar (RJ)</option>
+                <option value="AMARAVATI">Amaravati (AP)</option>
+                <option value="AMBALA">Ambala (HR)</option>
+                <option value="AMBATTUR">Ambattur (TN)</option>
+                <option value="AMRAVATI">Amravati (MH)</option>
+                <option value="AMRITSAR">Amritsar (PB)</option>
+                <option value="ANAND">Anand (GJ)</option>
+                <option value="ANANTAPUR">Anantapur (AP)</option>
+                <option value="ARRAH">Arrah (BR)</option>
+                <option value="ASANSOL">Asansol (WB)</option>
+                <option value="AURANGABAD_CHHATRAPATI_SAMBHAJINAGAR">Aurangabad / Chhatrapati Sambhajinagar (MH)
+                </option>
+                <option value="AVADI">Avadi (TN)</option>
+                <option value="BAHADURGARH">Bahadurgarh (HR)</option>
+                <option value="BAHRAICH">Bahraich (UP)</option>
+                <option value="BALLIA">Ballia (UP)</option>
+                <option value="BANGALORE_BENGALURU">Bangalore / Bengaluru (KA)</option>
+                <option value="BAREILLY">Bareilly (UP)</option>
+                <option value="BATHINDA">Bathinda (PB)</option>
+                <option value="BEGUSARAI">Begusarai (BR)</option>
+                <option value="BELGAUM">Belgaum (KA)</option>
+                <option value="BELLARY">Bellary (KA)</option>
+                <option value="BERHAMPUR">Berhampur (OD)</option>
+                <option value="BHAGALPUR">Bhagalpur (BR)</option>
+                <option value="BHARATPUR">Bharatpur (RJ)</option>
+                <option value="BHATPARA">Bhatpara (WB)</option>
+                <option value="BHAVNAGAR">Bhavnagar (GJ)</option>
+                <option value="BHILAI">Bhilai (CG)</option>
+                <option value="BHILWARA">Bhilwara (RJ)</option>
+                <option value="BHIWANDI">Bhiwandi (MH)</option>
+                <option value="BHIWANI">Bhiwani (HR)</option>
+                <option value="BHOPAL">Bhopal (MP)</option>
+                <option value="BHUBANESWAR">Bhubaneswar (OD)</option>
+                <option value="BHUSAWAL">Bhusawal (MH)</option>
+                <option value="BIDAR">Bidar (KA)</option>
+                <option value="BIHAR_SHARIF">Bihar Sharif (BR)</option>
+                <option value="BIJAPUR">Bijapur (KA)</option>
+                <option value="BIKANER">Bikaner (RJ)</option>
+                <option value="BILASPUR">Bilaspur (CG)</option>
+                <option value="BOKARO">Bokaro (JH)</option>
+                <option value="BONGAIGAON">Bongaigaon (AS)</option>
+                <option value="BULANDSHAHR">Bulandshahr (UP)</option>
+                <option value="BURHANPUR">Burhanpur (MP)</option>
+                <option value="CALICUT_KOZHIKODE">Calicut / Kozhikode (KL)</option>
+                <option value="CHANDIGARH">Chandigarh (CH/PB)</option>
+                <option value="CHANDRAPUR">Chandrapur (MH)</option>
+                <option value="CHENNAI">Chennai (TN)</option>
+                <option value="CHHAPRA">Chhapra (BR)</option>
+                <option value="CHITTOOR">Chittoor (AP)</option>
+                <option value="COIMBATORE">Coimbatore (TN)</option>
+                <option value="CUTTACK">Cuttack (OD)</option>
+                <option value="DARBHANGA">Darbhanga (BR)</option>
+                <option value="DAVANGERE">Davangere (KA)</option>
+                <option value="DEHRADUN">Dehradun (UK)</option>
+                <option value="DELHI_NEW_DELHI">Delhi / New Delhi (DL)</option>
+                <option value="DEOGHAR">Deoghar (JH)</option>
+                <option value="DEWAS">Dewas (MP)</option>
+                <option value="DHANBAD">Dhanbad (JH)</option>
+                <option value="DHARMAVARAM">Dharmavaram (AP)</option>
+                <option value="DHULE">Dhule (MH)</option>
+                <option value="DIBRUGARH">Dibrugarh (AS)</option>
+                <option value="DINDIGUL">Dindigul (TN)</option>
+                <option value="DURGAPUR">Durgapur (WB)</option>
+                <option value="ELURU">Eluru (AP)</option>
+                <option value="ERODE">Erode (TN)</option>
+                <option value="ETAWAH">Etawah (UP)</option>
+                <option value="FARIDABAD">Faridabad (HR)</option>
+                <option value="FARRUKHABAD">Farrukhabad (UP)</option>
+                <option value="FATEHPUR">Fatehpur (UP)</option>
+                <option value="FIROZABAD">Firozabad (UP)</option>
+                <option value="GANDHIDHAM">Gandhidham (GJ)</option>
+                <option value="GANDHINAGAR">Gandhinagar (GJ)</option>
+                <option value="GAYA">Gaya (BR)</option>
+                <option value="GHAZIABAD">Ghaziabad (UP)</option>
+                <option value="GOPALPUR">Gopalpur (WB)</option>
+                <option value="GORAKHPUR">Gorakhpur (UP)</option>
+                <option value="GULBARGA">Gulbarga (KA)</option>
+                <option value="GUNTUR">Guntur (AP)</option>
+                <option value="GURGAON">Gurgaon (HR)</option>
+                <option value="GUWAHATI">Guwahati (AS)</option>
+                <option value="GWALIOR">Gwalior (MP)</option>
+                <option value="HALDIA">Haldia (WB)</option>
+                <option value="HAPUR">Hapur (UP)</option>
+                <option value="HARIDWAR">Haridwar (UK)</option>
+                <option value="HAZARIBAGH">Hazaribagh (JH)</option>
+                <option value="HINDUPUR">Hindupur (AP)</option>
+                <option value="HOSHANGABAD">Hoshangabad (MP)</option>
+                <option value="HOSPET">Hospet (KA)</option>
+                <option value="HOWRAH">Howrah (WB)</option>
+                <option value="HUBLI">Hubli (KA)</option>
+                <option value="HYDERABAD">Hyderabad (TS)</option>
+                <option value="ICHALKARANJI">Ichalkaranji (MH)</option>
+                <option value="IMPHAL">Imphal (MN)</option>
+                <option value="INDORE">Indore (MP)</option>
+                <option value="MUMBAI">MUMBAI (MH)</option>
+                <option value="SAGAR">SAGAR (MP)</option>
+                <option value="SEHORE">SEHORE (MP)</option>
+                <option value="PANJI">PANJI (GOA)</option>
+            </select>
+            <BR>
+            <BR>
+            <input type="submit" value="Sign Up">
+        </form>
+    </div>
 </body>
+
 </html>
